@@ -52,6 +52,7 @@ body {
   font-size: 30px;
   text-align: center;
 }
+.form,
 .todoForm {
   width: 100%;
   height: auto;
