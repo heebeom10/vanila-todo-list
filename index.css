@@ -34,8 +34,16 @@ body {
   animation: fadeIn 0.5s linear;
 }
 .form__input {
+  width: 25%;
+  font-size: 25px;
   background-color: transparent;
   border: none;
+  border-bottom: 1px solid white;
+  color: white;
+  text-align: center;
+  outline: none;
+}
+::placeholder {
   color: white;
 }
 .weather {
@@ -58,6 +66,7 @@ body {
   height: auto;
   text-align: center;
 }
+
 .todoForm__input {
   width: 50%;
   background-color: transparent;
@@ -70,7 +79,7 @@ body {
 }
 .todo__text {
   text-align: center;
-  font-size: 20px;
+  font-size: 30px;
 }
 .js-todoList {
   text-align: center;
@@ -92,4 +101,10 @@ body {
 }
 .todo__clear {
   text-decoration: line-through;
+}
+.easter-egg {
+  position: absolute;
+  left: 0%;
+  bottom: 0%;
+  color: brown;
 }
